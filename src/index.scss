@@ -1,0 +1,24 @@
+*,
+**::after,
+**::before{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+  color: darkblue;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.container{
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
